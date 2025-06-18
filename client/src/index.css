@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "General Sans";
+  src:
+    url("./assets/fonts/GeneralSans-Variable.woff2") format("woff2"),
+    url("./assets/fonts/GeneralSans-Variable.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src:
+    url("./assets/fonts/FiraSans-Variable.woff2") format("woff2"),
+    url("./assets/fonts/FiraSans-Variable.woff") format("woff");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-*: initial;
+
+  --color-primary-100: #00897b;
+  --color-primary-200: #00796b;
+  --color-primary-300: #004d40;
+
+  --color-accent-100: #ff7043;
+  --color-accent-200: #ffa726;
+
+  --color-text-100: #212121;
+  --color-text-200: #757575;
+
+  --color-background-100: #ffffff;
+  --color-background-200: #f5f5f5;
+  --color-background-300: #e0e0e0;
+
+  --color-success: #4caf50;
+  --color-error: #f44336;
+  --color-info: #2196f3;
+
+  --font-general-sans: "General Sans", sans-serif;
+  --font-fira-sans: "Fira Sans", sans-serif;
+
+  --text-heading-xl: 1.75rem;
+  --text-heading-xl--line-height: calc(1.75rem * 1.15);
+  --text-heading-xl--letter-spacing: -0.03em;
+
+  --text-heading-lg: 1.5625rem;
+  --text-heading-lg--line-height: calc(1.5625rem * 1.15);
+  --text-heading-lg--letter-spacing: -0.03em;
+
+  --text-heading-md: 1.375rem;
+  --text-heading-md--line-height: calc(1.375rem * 1.15);
+  --text-heading-md--letter-spacing: -0.03em;
+
+  --text-heading-sm: 1.25rem;
+  --text-heading-sm--line-height: calc(1.25rem * 1.15);
+  --text-heading-sm--letter-spacing: -0.03em;
+
+  --text-heading-xs: 1.125rem;
+  --text-heading-xs--line-height: calc(1.125rem * 1.15);
+  --text-heading-xs--letter-spacing: -0.03em;
+
+  --text-heading-xxs: 1rem;
+  --text-heading-xxs--line-height: calc(1rem * 1.15);
+  --text-heading-xxs--letter-spacing: -0.03em;
+
+  --text-p: 0.875rem;
+  --text-p--line-height: calc(0.875rem * 1.6);
+  --text-p--letter-spacing: -0.01em;
+
+  --text-p-sm: 0.75rem;
+  --text-p-sm--line-height: calc(0.75rem * 1.6);
+  --text-p-sm--letter-spacing: -0.01em;
+
+  --text-p-xs: 0.625rem;
+  --text-p-xs--line-height: calc(0.625rem * 1.6);
+  --text-p-xs--letter-spacing: -0.01em;
+
+  --text-label: 0.875rem;
+  --text-label--line-height: calc(0.875rem * 1.15);
+  --text-label--letter-spacing: -0.01em;
+
+  --text-label-sm: 0.75rem;
+  --text-label-sm--line-height: calc(0.75rem * 1.15);
+  --text-label-sm--letter-spacing: -0.01em;
+
+  --shadow-down: 0px 4px 16px 0px rgba(33, 33, 33, 0.04);
+  --shadow-up: 0px -4px 16px 0px rgba(33, 33, 33, 0.04);
+}
