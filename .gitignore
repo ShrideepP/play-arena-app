@@ -18,6 +18,7 @@ pnpm-lock.yaml
 # Build outputs
 dist/
 build/
+.tanstack
 *.tsbuildinfo
 *.cache
 
